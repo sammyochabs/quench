@@ -1,0 +1,122 @@
+.sectionImage {
+  width: 500px;
+}
+.headerText {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 44px;
+  color: #1acedf;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.headerDiv {
+  gap: 10px;
+}
+.headerDiv img:first-child {
+  width: 10px;
+}
+.headerDiv img:last-child {
+  width: 60px;
+}
+.listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+.listItem img {
+  width: 20px;
+}
+.listItem p {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 37px;
+  color: #3f3f3f;
+  position: relative;
+  bottom: 12px;
+}
+.sectionText {
+  width: 40%;
+}
+.sectionImageDiv {
+  width: 50%;
+}
+.sectionText button {
+  background: #2565ae;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 23px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 160px;
+  align-items: center;
+  gap: 10px;
+  padding: 2px;
+}
+.sectionText button img {
+  width: 20px;
+}
+.supportCorporation {
+  padding-bottom: 50px;
+}
+.supportCorporation span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12px;
+  color: #000000;
+}
+.corporationsList {
+  gap: 20px;
+}
+
+.moreButtons button:first-child {
+  background: #2565ae;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 23px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 200px;
+  align-items: center;
+  gap: 10px;
+  padding: 2px;
+}
+.moreButtons button:first-child img {
+  width: 20px;
+}
+
+.moreButtons button:last-child {
+  background: #1acedf;
+  border: 1px solid #1acedf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 23px;
+  padding: 5px;
+  color: #ffffff;
+  width: 20%;
+  height: 39px;
+}
+.moreButtons {
+  width: 63%;
+  gap: 60px;
+}

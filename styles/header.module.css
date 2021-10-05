@@ -1,0 +1,81 @@
+.container {
+  width: 100vw;
+  height: 100px;
+  gap: 3%;
+  justify-content: center;
+}
+.logoContainer img {
+  width: 215px;
+  height: 75px;
+}
+.navListContainer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3%;
+  align-items: center;
+  position: relative;
+  top: 5px;
+  padding: 0px;
+}
+.navListContainer ul li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.navListContainer ul li button {
+  background: #1acedf;
+  border: 2px solid #1acedf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+  width: 100px;
+  height: 38px;
+}
+.currentTabIndicator {
+  height: 2px;
+  width: 100%;
+  background: #1acedf;
+  border-radius: 3px;
+}
+@media (max-width: 768px) {
+  .container {
+    height: 80px;
+    justify-content: space-between;
+  }
+  .mobileNavListContainer {
+    width: 30%;
+  }
+  .mobileNavListContainer button {
+    background: #1acedf;
+    /* Primary */
+
+    border: 1.33333px solid #1acedf;
+    box-sizing: border-box;
+    border-radius: 3.33333px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    /* White */
+
+    color: #ffffff;
+  }
+  .logoContainer img {
+    width: 129px;
+    height: 45px;
+  }
+}

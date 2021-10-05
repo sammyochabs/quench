@@ -1,0 +1,77 @@
+.container {
+  width: 20%;
+  background: white;
+  background: #ffffff;
+  box-shadow: 1px 1px 15px rgba(119, 119, 119, 0.25);
+  border-radius: 30px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.imgDiv {
+  border-radius: 30px;
+  width: 100%;
+}
+.imgDiv img {
+  width: 100%;
+  border-radius: 30px;
+}
+.headerDiv span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 27px;
+  color: #000000;
+}
+.headerDiv p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  /* or 185% */
+
+  color: #3f3f3f;
+  margin-top: 10px;
+}
+.container button:first-child {
+  border: 2.5px solid #1acedf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 23px;
+  padding: 5px;
+  /* Primary */
+
+  color: #1acedf;
+  width: 50%;
+}
+.container button:last-child {
+  background: #1acedf;
+  /* Primary */
+
+  border: 1px solid #1acedf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 23px;
+  padding: 5px;
+  color: #ffffff;
+  width: 50%;
+}
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}

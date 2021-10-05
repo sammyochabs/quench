@@ -1,0 +1,85 @@
+.footer {
+  background: #1acedf;
+}
+.logoDiv img {
+  width: 100px;
+}
+.logoDiv p {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.quickLink ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.quickLink span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.quickLink ul li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 46px;
+  color: #ffffff;
+}
+.topDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+.socialLinks {
+  border-radius: 5px;
+}
+.socialLinks img {
+  width: 40px;
+}
+.socialLinks span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  /* line-height: 12px; */
+  color: #ffffff;
+}
+.socialLinks div {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  align-items: center;
+  margin-top: 3%;
+}
+.bottomDiv {
+  padding: 20px 150px;
+}
+.bottomDiv div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20%;
+}
+.bottomDiv p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
